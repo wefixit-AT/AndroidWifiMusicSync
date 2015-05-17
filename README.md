@@ -27,6 +27,7 @@ MNT_DIR=$ROOT_FOLDER/mount
 PLAYLIST=/home/username/Downloads/test.m3u
 LIB_FOLDER=/home/username/scripts/lib
 TMP_FILE=/tmp/cleaned_playlist
+DEBUG=true
 ```
 
 `ROOT_FOLDER`: This is the folder where you stored the tool.
@@ -35,7 +36,7 @@ TMP_FILE=/tmp/cleaned_playlist
 
 `PLAYLIST`: The file from the previous step.
 
-`LIB_FOLDER`: The folder to the libraries from my other projects.
+`LIB_FOLDER`: The folder to the libraries from my other projects. [BashLibraries](https://github.com/wefixit-AT/BashLibraries)
 
 `TMP_FILE`: A file where the tool can store a cleaned version of the playlist. This file will be deleted after a successful run.
 
