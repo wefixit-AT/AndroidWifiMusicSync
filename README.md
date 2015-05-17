@@ -30,9 +30,13 @@ TMP_FILE=/tmp/cleaned_playlist
 ```
 
 `ROOT_FOLDER`: This is the folder where you stored the tool.
+
 `MNT_DIR`: Where the phone should be mounted.
+
 `PLAYLIST`: The file from the previous step.
+
 `LIB_FOLDER`: The folder to the libraries from my other projects.
+
 `TMP_FILE`: A file where the tool can store a cleaned version of the playlist. This file will be deleted after a successful run.
 
 ## 4. Synchronize
