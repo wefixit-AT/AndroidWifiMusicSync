@@ -1,18 +1,16 @@
 # AndroidWifiMusicSync
-
 AndroidWifiMusicSync is a tool to synchronize music over wifi.
 
 # Prerequests
-
 * On the Workstation
---* Ruby
---* A Music Player which can export a playlist as m3u.
+..* Ruby
+..* A Music Player which can export a playlist as m3u.
 
 * Sync to a phone
---* SSHDroid or a similar application to connect via ssh to the phone. Here you can buy the pro version to use public key authentication to avoid entering every time the password.
+..* SSHDroid or a similar application to connect via ssh to the phone. Here you can buy the pro version to use public key authentication to avoid entering every time the password.
 
 * Sync to a usb device
---* No special software needed, the device must be mounted.
+..* No special software needed, the device must be mounted.
 
 # How to synchronize
 
@@ -31,7 +29,9 @@ Create a config for every device. Take a look at syncPhoneSample.rb and syncUsbS
 ## 4. Synchronize
 Run the tool.
 
-''' ruby syncPhone.rb
+```
+ruby syncPhone.rb
+```
 
 ## 5. Test
 Now you should have all your favorite songs on you phone, it's time for a walk ;-)
