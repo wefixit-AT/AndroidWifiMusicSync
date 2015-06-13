@@ -3,16 +3,11 @@ AndroidWifiMusicSync is a tool to synchronize music over wifi.
 
 # Prerequests
 1. On the Workstation
-
 ..* Ruby
 ..* A Music Player which can export a playlist as m3u.
-
 2. Sync to a phone
-
 ..* SSHDroid or a similar application to connect via ssh to the phone. Here you can buy the pro version to use public key authentication to avoid entering every time the password.
-
 3. Sync to a usb device
-
 ..* No special software needed, the device must be mounted.
 
 # How to synchronize
