@@ -1,7 +1,9 @@
-# AndroidWifiMusicSync
+AndroidWifiMusicSync
+====================
 AndroidWifiMusicSync is a tool to synchronize music over wifi.
 
-# Prerequests
+Prerequests
+-----------
 1. On the Workstation
   * Ruby
   * A Music Player which can export a playlist as m3u.
@@ -9,6 +11,18 @@ AndroidWifiMusicSync is a tool to synchronize music over wifi.
   * SSHDroid or a similar application to connect via ssh to the phone. Here you can buy the pro version to use public key authentication to avoid entering every time the password.
 3. Sync to a usb device
   * No special software needed, the device must be mounted.
+  
+NOTE: Apollo can sometime took really long to recognize new songs. Therefore I switched to VLC
+  
+Installation
+------------
+
+	./install.sh
+
+Usage
+-----
+
+TODO
 
 # How to synchronize
 

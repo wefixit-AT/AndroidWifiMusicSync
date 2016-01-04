@@ -1,0 +1,32 @@
+# debug values: true, false
+debug: false
+
+# copyFiles values: true, false
+copyFiles: true
+
+# deleteFiles values: true, false
+deleteFiles: false
+
+# cleanUp: Remove all files on the phone
+# values: true, false
+cleanUp: false
+
+# type values: usb, ssh 
+type: ssh
+
+# playlist: The playlists which shoud be synchronized to the phone
+playlist:
+  - /home/user/Music/playlist_1.m3u
+  - /home/user/Music/playlist_2.m3u
+
+# IP, port and username to sync via SSH, this values is not needed if you sync over USB
+ip: 192.168.0.10
+port: 22
+username: root
+
+# dst: Destination on the phone where the music should be stored
+dst: /extSdCard/Music
+
+# fatfs: If the destination is a fat filesystem the names has to be changed to because many characters are not allowed
+# values: true, false
+fatFs: true
