@@ -19,14 +19,14 @@ Installation
 
 ```
 ./install.sh
-
-ruby src/sync.rb config.rb
 ```	
 
 Usage
 -----
 
-TODO
+```
+ruby src/sync.rb config.rb
+```	
 
 # How to synchronize
 
