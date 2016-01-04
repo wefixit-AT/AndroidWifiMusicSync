@@ -17,7 +17,11 @@ NOTE: Apollo can sometime took really long to recognize new songs. Therefore I s
 Installation
 ------------
 
-	./install.sh
+```
+./install.sh
+
+ruby src/sync.rb config.rb
+```	
 
 Usage
 -----
