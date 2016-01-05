@@ -248,7 +248,12 @@ class Tool
       end
 
       filesFromThePlaylist.each do |file|
-        dstFile = @config.dst+"/"+@config.folderMusic+"/"
+        if @config.overrideRoot
+          dstFile = @config.overrideRoot
+        else
+          dstFile = @config.dst
+        end
+        dstFile += "/"+@config.folderMusic+"/"
         if @config.fatFs
           dstFile += file.folderFatFs+"/"+file.fileFatFs+""
         else

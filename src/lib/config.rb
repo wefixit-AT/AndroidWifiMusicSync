@@ -1,5 +1,5 @@
 class Configuration
-  attr_reader :dst, :playlist, :ip, :username, :port, :deleteFiles, :debug, :copyFiles, :type, :cleanUp, :fatFs
+  attr_reader :dst, :playlist, :ip, :username, :port, :deleteFiles, :debug, :copyFiles, :type, :cleanUp, :fatFs, :overrideRoot
   @@folderMusic="music"
   @@folderPlaylist="playlist"
   @@typeUsb="usb"
@@ -16,6 +16,7 @@ class Configuration
     @dst=configYaml['dst']
     @cleanUp=configYaml['cleanUp']
     @fatFs=configYaml['fatFs']
+    @overrideRoot=configYaml['overrideRoot']
   end
 
   def folderMusic

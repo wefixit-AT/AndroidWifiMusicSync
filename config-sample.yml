@@ -30,3 +30,6 @@ dst: /extSdCard/Music
 # fatfs: If the destination is a fat filesystem the names has to be changed to because many characters are not allowed
 # values: true, false
 fatFs: true
+
+# overrideRoot: If it is set, the root of the playlist path will be override. It can be necessary for mounted USB devices
+# overrideRoot: /Music
